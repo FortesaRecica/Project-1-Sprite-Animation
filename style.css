@@ -1,0 +1,18 @@
+#canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*SS translate() Function. CSS is a style sheet language that specifies HTML elements to display on a screen or in other media and it attains for cascading style sheet.*/ 
+    width: 600px;
+    height: 600px;
+}
+.controls {
+    position: absolute;
+    z-index: 10;
+    top:100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.controls,  select, option {
+    font-size: 50px;
+}
